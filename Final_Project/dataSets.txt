@@ -1,0 +1,6 @@
+https://medium.com/analytics-vidhya/15-best-open-source-autonomous-driving-datasets-34324676c8d7
+https://www.a2d2.audi/a2d2/en/download.html
+
+
+https://www.kaggle.com/datasets/enesbayturk/vehicle-and-pedestrian-detection-dataset
+
