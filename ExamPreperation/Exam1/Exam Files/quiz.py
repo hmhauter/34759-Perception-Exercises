@@ -13,13 +13,13 @@ from sklearn.linear_model import LinearRegression
 
 
 # P = np.array([[725,0,631],[0,726,360],[0,0,1]])
-# X = [1,1,4]
+# X = [1,1,3]
 # x = (P @ X)
 # x = x / x[2]
 # print(x)
 
 # A = np.array([[10,15,20],[20,20,25],[10,15,20]])
-# B = np.array([[15,15,15],[2812.250,20,20],[30,30,30]])
+# B = np.array([[15,15,15],[20,20,20],[30,30,30]])
 
 # print(A-B)
 # print((A-B)**2)
@@ -55,20 +55,20 @@ from sklearn.linear_model import LinearRegression
 
 # predicted = model.predict(np.array([1]).reshape(-1, 1))
 # print(predicted)
-import cv2
-rvec = np.array([-0.05, -1.51, -0.00])
-tvec = np.array([87.39, -2.25, -24.89])
-rmat, _ = cv2.Rodrigues(rvec)
-print(rmat)
+# import cv2
+# rvec = np.array([-0.05, -1.51, -0.00])
+# tvec = np.array([87.39, -2.25, -24.89])
+# rmat, _ = cv2.Rodrigues(rvec)
+# print(rmat)
 
-p_img = np.array([-6.71, 0.23, 21.59,1])
+# p_img = np.array([-6.71, 0.23, 21.59,1])
 
-P = np.array([[ 0.0609624 ,  0.03109396 ,-0.99765563, 87.39],
- [ 0.03109396 , 0.9989704  , 0.03303495, -2.25],
- [ 0.99765563 ,-0.03303495 , 0.0599328 , -24.89],
- [0,0,0,1]])
+# P = np.array([[ 0.0609624 ,  0.03109396 ,-0.99765563, 87.39],
+#  [ 0.03109396 , 0.9989704  , 0.03303495, -2.25],
+#  [ 0.99765563 ,-0.03303495 , 0.0599328 , -24.89],
+#  [0,0,0,1]])
 
-print(np.linalg.pinv(P) @ p_img)
+# print(np.linalg.pinv(P) @ p_img)
 
 
 
